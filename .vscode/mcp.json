@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "keepsong30": {
+      "type": "http",
+      "url": "https://keepsong-3000.use2.devtunnels.ms/mcp"
+    }
+  }
+}
