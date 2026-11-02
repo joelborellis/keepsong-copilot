@@ -20,6 +20,10 @@
         {
             "title": "What styles are there?",
             "text": "Show me the music styles I can choose from."
+        },
+        {
+            "title": "Our songs so far",
+            "text": "Show me the songs we've made so far."
         }
     ],
     "actions": [
