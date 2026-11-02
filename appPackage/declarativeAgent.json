@@ -2,13 +2,25 @@
     "$schema": "https://developer.microsoft.com/json-schemas/copilot/declarative-agent/v1.8/schema.json",
     "version": "v1.8",
     "name": "keepsong-copilot${{APP_NAME_SUFFIX}}",
-    "description": "Declarative agent created with Microsoft 365 Agents Toolkit can assist user in calling MCP Servers",
+    "description": "Keepsong writes an original song for whatever you are working on — a launch, an announcement, an event or a story — and lets you hear, tweak and pick it right in the chat.",
     "instructions": "$[file('instruction.txt')]",
     "conversation_starters": [
         {
-			"title": "Sample conversation starters",
-			"text": "Hi! What can you do for me?"
-		}
+            "title": "A song for this launch",
+            "text": "Write a song that goes with the product launch I'm working on."
+        },
+        {
+            "title": "30-second teaser",
+            "text": "Make a 30-second upbeat teaser track for our spring campaign."
+        },
+        {
+            "title": "Background music",
+            "text": "I need calm background music for a podcast intro."
+        },
+        {
+            "title": "What styles are there?",
+            "text": "Show me the music styles I can choose from."
+        }
     ],
     "actions": [
         {

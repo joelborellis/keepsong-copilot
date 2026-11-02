@@ -2,6 +2,18 @@
 
 This template shows how to wrap your existing MCP Server into a Microsoft 365 Copilot Declarative Agent (DA) using the Agents Toolkit (ATK) in VS Code. Instead of hand‑authoring an OpenAPI spec, you point ATK at your MCP discovery URL and let the toolkit generate all manifests, wiring in authentication and function definitions automatically. 
 
+> **Keepsong: start here.** This is the Microsoft 365 Copilot agent for the Keepsong MCP server
+> ([ElevenLabs-music-mcp](https://github.com/joelborellis/ElevenLabs-music-mcp)). Current status of
+> both projects, how to bring everything back up, and the next steps (UI widgets) are in the
+> checkpoint document:
+>
+> - Local clone: [`../ElevenLabs-music-mcp/docs/checkpoint.md`](../ElevenLabs-music-mcp/docs/checkpoint.md)
+> - GitHub: [docs/checkpoint.md](https://github.com/joelborellis/ElevenLabs-music-mcp/blob/main/docs/checkpoint.md)
+>
+> Auth setup (Entra SSO, Teams developer portal, dev tunnel) is documented in the server repo's
+> [docs/copilot-auth.md](https://github.com/joelborellis/ElevenLabs-music-mcp/blob/main/docs/copilot-auth.md).
+> The rest of this README is the Agents Toolkit template text.
+
 ## Get started with the template
 
 > **Prerequisites**
