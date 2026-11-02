@@ -10,7 +10,7 @@
         {
             "type": "RemoteMCPServer",
             "spec": {
-                "url": "https://keepsong-3000.use2.devtunnels.ms/mcp"
+                "url": "${{MCP_SERVER_URL}}"
             },
             "run_for_functions": [
                 "*"

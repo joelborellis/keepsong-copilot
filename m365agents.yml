@@ -22,7 +22,8 @@ provision:
       appId: ${{TEAMS_APP_ID}}
       flow: authorizationCode
       identityProvider: MicrosoftEntra
-      baseUrl: https://keepsong-3000.use2.devtunnels.ms/mcp
+      # Per environment: env/.env.dev = dev tunnel, env/.env.prod = Azure Container Apps
+      baseUrl: ${{MCP_SERVER_URL}}
       clientId: ${{MCP_DA_OAUTH_CLIENT_ID_KEEPSONG30}}
     writeToEnvironmentFile:
       configurationId: MCP_DA_AUTH_ID_KEEPSONG30
